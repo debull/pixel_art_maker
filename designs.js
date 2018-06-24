@@ -1,29 +1,30 @@
-// Select color input
+// Save colour selected by user input
 const selectedColor = $('#colorPicker');
 
-// Select size input
+// Get the height and width input
 const tableHeight = $('#inputHeight');
 const tableWidth = $('#inputWidth');
 
-// When size is submitted by the user, call makeGrid()
 
-$('#sizePicker').submit(function(evt){
-    evt.preventDefault();
+// Listen for a submit action
+$('#sizePicker').submit(function(event){
+    event.preventDefault();
 
+    //Reset any previous table if present
     $('#pixelCanvas').children().remove();
+
+    // Call the makeGrid() function to draw the new table
     makeGrid();
 });
 
 function makeGrid() {
-    //alert('working');
-    // Your code goes here!
 
     // Get table display area, column and row inputs values
     let pixelCanvas = $('#pixelCanvas');
-    let getRow = tableHeight.val();
-    let getCol = tableWidth.val();
+    let getRow = parseInt( tableHeight.val() );
+    let getCol = parseInt( tableWidth.val() );
 
-    // Create table using input values from user
+    // Loop through user's input values and generate rows and cols as entered. 
     for(let y = 0; y < getRow; y++){
         let createRow = $('<tr></tr>');
      
@@ -35,13 +36,14 @@ function makeGrid() {
         pixelCanvas.append(createRow);
     }
 
-    // Add event delegation to each cell of the created table
-    // to change to selected color on click.
+    // Add an on click event listener to #pixelCanvas
+    // Use event delegation to target each cell of the table
+    // to change background-color to the picked color on click.
     pixelCanvas.on('click', 'td', function(evt) {
         $(evt.target).css('background-color', selectedColor.val());
     });
 
 }
 
-// Set background-color
+// Set body background-color
 $('body').css('background-color', '#6fa8d2');
