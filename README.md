@@ -1,10 +1,13 @@
 # Pixel Art Maker Project
- Link to github pages: https://debull.github.io/pixel_art_maker/
 
 ## Table of Contents
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+
+### Link to GitHub pages
+
+[Pixel Art Maker](https://debull.github.io/pixel_art_maker/)
 
 ## Instructions
 
