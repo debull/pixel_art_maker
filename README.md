@@ -1,4 +1,5 @@
 # Pixel Art Maker Project
+ Link to github pages: https://debull.github.io/pixel_art_maker/
 
 ## Table of Contents
 
