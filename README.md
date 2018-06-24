@@ -5,10 +5,6 @@
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
-### Link to GitHub pages
-
-[Pixel Art Maker](https://debull.github.io/pixel_art_maker/)
-
 ## Instructions
 
 To get started, open `designs.js` and start building out the app's functionality.
