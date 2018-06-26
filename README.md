@@ -4,7 +4,9 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
-[Link to app](https://debull.github.io/pixel_art_maker/)
+
+#
+Check out this [Link to the app](https://debull.github.io/pixel_art_maker/).
 
 ## Instructions
 
