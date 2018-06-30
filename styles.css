@@ -39,9 +39,7 @@ input[type=number] {
     width: 6em;
 }
 
-#readMe {
-    font-weight: bold;
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
+#instruction {
+    color: darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }

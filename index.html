@@ -4,12 +4,12 @@
     <title>Pixel Art Maker!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
-    <script src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <h1>Lab: Pixel Art Maker</h1>
-
+    
     <h2>Choose Grid Size</h2>
+    <h4>Enter Number between 1 - 100</h4>
     <form id="sizePicker">
         Grid Height:
         <input type="number" id="inputHeight" name="height" min="1" value="1">
@@ -17,17 +17,15 @@
         <input type="number" id="inputWidth" name="width" min="1" value="1">
         <input type="submit">
     </form>
-
+    
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker">
-
+    
     <h2>Design Canvas</h2>
+<h4 id="instruction">*** CLICK on squares to apply color, DOUBLE-CLICK to Remove Color! ***</h4>
     <table id="pixelCanvas"></table>
-
-    <div class="" id="readMe">
-       <h3><a href="https://github.com/debull/pixel_art_maker/blob/master/README.md">READ ME!!!</a></h3> 
-    </div>
-
+    
+    <script src="jquery-3.2.1.min.js"></script>
     <script src="designs.js"></script>
 </body>
 </html>
