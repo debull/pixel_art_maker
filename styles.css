@@ -43,3 +43,7 @@ input[type=number] {
     color: darkred;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
+
+td:hover {
+    cursor: cell;
+}
