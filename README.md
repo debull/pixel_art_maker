@@ -6,7 +6,7 @@
 * [Contributing](#contributing)
 
 #
-Check out this [Link to the app](https://debull.github.io/pixel_art_maker/).
+Check out this [Link to the app](https://effiong-jr.github.io/pixel_art_maker/).
 
 ## Instructions
 
